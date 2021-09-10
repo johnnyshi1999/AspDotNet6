@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace AspDotNet6
 {
-    public class Coordinate
-    {
-        public int x;
-        public int y;
-    }
+  public class Coordinate
+  {
+    public int X { get; set; }
+    public int Y { get; set; }
+  }
 }
